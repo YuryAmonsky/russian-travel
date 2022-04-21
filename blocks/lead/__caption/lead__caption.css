@@ -9,13 +9,18 @@
 }
 
 @media screen and (max-width: 767px) {
-  .lead__caption {
-    margin-left: 16px;
+  .lead__caption {    
+    /*Вычисляю отступ функцией, чтобы caption был на одном расстоянии
+    с секцией intro при увеличении ширины экрана.
+    При ширине экрана 320px - отступ будет 16px, 
+    при увеличении экрана до 480px caption будет на одном расстоянии 
+    с секцией intro. После 480px у caption и intro отступ будет 24px.*/
+    margin-left: min(5%, 24px);
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .lead__caption {
-    margin-left: 24px;
+    margin-left: max(792px - 100%, 0px);
   }
 }

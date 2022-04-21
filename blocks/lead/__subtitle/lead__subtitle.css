@@ -9,9 +9,9 @@
 
 @media screen and (max-width: 767px) {
   .lead__subtitle {
-    width: 288px;
+    width: calc(288px + 352 * (100vw - 320px) / 448);
     margin: 0 auto 40px;
-    font-size: 16px;
+    font-size: calc(16px + 14 * (100vw - 320px) / 448);
     line-height: 1.25;
   }
 }

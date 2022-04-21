@@ -1,10 +1,8 @@
 .header {
-  max-width: 100%;
   padding: 28px 0 48px;
   margin: 0 48px;
   display: grid;
-  grid-template-columns: auto repeat(2, min-content);  
-  grid-template-rows: 1fr;
+  grid-template-columns: auto repeat(2, min-content);
   column-gap: 18px;
   justify-items: end;
   align-items: end;
@@ -18,13 +16,15 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .header {    
+  .header {
     margin: 0 24px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .header {
+    width: 1184px;
     padding: 28px 0 56px;
-  }  
+    margin: 0 calc((100% - 1184px)/2);
+  }
 }
