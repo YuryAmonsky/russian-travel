@@ -1,0 +1,27 @@
+.place {
+  display: grid;
+  grid-template-columns: 440px 456px;
+  grid-template-rows: auto 440px;
+  gap: 48px 32px;
+}
+
+@media screen and (max-width: 767px) {
+  .place  {
+    width: 100%;
+    margin: 0 auto 64px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .place  {
+    width: auto;    
+    margin: 0 calc(48 * (100% - 768px) / 256) 88px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .place  {
+    width: 984px;
+    margin: 0 auto 92px;
+  }
+}
