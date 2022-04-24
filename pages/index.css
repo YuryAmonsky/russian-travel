@@ -21,9 +21,16 @@
 @import url(../blocks/place/place.css);
 @import url(../blocks/place/__title/place__title.css);
 @import url(../blocks/place/__website/place__website.css);
+@import url(../blocks/place/__url-heading/place__url-heading.css);
+@import url(../blocks/place/__link/place__link.css);
 @import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__text/place__text.css);
+@import url(../blocks/place/__paragraph/place__paragraph.css);
 
 
 /*Принял за основной диапазон размеров экрана: 1024-1280 px. 
 Для этого диапазона описываю любой класс глобально, задаю все необходимые стили. 
-Для остальных размеров только изменения свойств внутри медиазапросов*/
+Для остальных размеров только изменения свойств внутри медиазапросов.
+
+Для плавного растягивания контента при увеличении окна браузера
+размеры ширины или отступов некоторых блоков вычисляются с помощью функции calc() или min() или max() */
