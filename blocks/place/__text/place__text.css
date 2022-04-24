@@ -6,13 +6,14 @@
 
 @media screen and (max-width: 767px) {
   .place__text {
-    margin: 0 auto;
-    width: calc(288px + 400*(100vw - 320px)/448);
+    margin: 0 16px;
+    width: auto;
+    /*width: calc(288px + 432 * (100vw - 320px) / 448);*/
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .place__text {
-    width: calc(352px + 104*(100vw - 768px)/256);
+    width: calc(352px + 104 * (100vw - 768px) / 256);
   }
 }
