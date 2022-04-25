@@ -1,6 +1,5 @@
 .header {
-  padding: 28px 0 48px;
-  margin: 0 48px;
+  margin: 0 48px 48px;
   display: grid;
   grid-template-columns: auto repeat(2, min-content);
   column-gap: 18px;
@@ -9,22 +8,20 @@
 }
 
 @media screen and (max-width: 767px) {
-  .header {
-    padding: 16px 0 48px;
-    margin: 0 16px;
+  .header {    
+    margin: 0 calc(16px + 8 * (100vw - 320px) / 448) 48px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .header {
-    margin: 0 24px;
+    margin: 0 calc(24px + 24 * (100vw - 768px) / 256) 48px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .header {
     width: 1184px;
-    padding: 28px 0 56px;
-    margin: 0 calc((100% - 1184px)/2);
+    margin: 0 calc((100% - 1184px)/2) 56px;
   }
 }
