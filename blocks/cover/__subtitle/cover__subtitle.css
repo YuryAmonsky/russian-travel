@@ -13,6 +13,6 @@
     width: calc(288px + 72 *(100vw - 320px)/448);
     margin: calc(16px + 16 * (100vw - 320px) / 448) 0 0;
     font-size: calc(14px + 4 * (100vw - 320px) / 448);
-    line-height: calc(1.14 + .08 * (100vw - 320px) / 448);
+    line-height: calc(1.14 + 0.08 * (100vw - 320px) / 448);
   }
 }

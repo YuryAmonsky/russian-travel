@@ -1,12 +1,12 @@
-.footer{
+.footer {
   margin: 0 48px;
   width: auto;
   display: flex;
-  justify-content: space-between;  
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 767px) {
-  .footer{
+  .footer {
     width: 186px;
     margin: 0 auto 0 16px;
     flex-direction: column;
@@ -15,14 +15,14 @@
 }
 
 @media screen and (min-width: 768px) and (min-width: 1023px) {
-  .footer{
-    margin: 0 calc(24px + 24 * (100% - 768px) / 256);      
+  .footer {
+    margin: 0 calc(24px + 24 * (100% - 768px) / 256);
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .footer{
-    margin: 0 auto;  
-    width: 1184px;    
+  .footer {
+    margin: 0 auto;
+    width: 1184px;
   }
 }
