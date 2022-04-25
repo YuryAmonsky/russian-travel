@@ -1,7 +1,7 @@
 .cover {
   margin: 0 auto 92px;
   padding: 0;
-  width: 100%;
+  width: min(100%, 1024px + 160 * (100% - 1024px) / 256);
   height: calc(640px + 100 * (100vw - 1024px)/256);
   position: relative;
   z-index: 1;
