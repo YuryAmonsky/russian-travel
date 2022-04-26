@@ -1,10 +1,13 @@
-.footer-menu {
+.footer__links {
+  margin: 0;
+  padding: 0;
   display: flex;
   column-gap: 18px;
+  list-style: none;
 }
 
 @media screen and (max-width: 767px) {
-  .footer-menu {
+  .footer__links {
     flex-direction: column;
     row-gap: 32px;
   }
