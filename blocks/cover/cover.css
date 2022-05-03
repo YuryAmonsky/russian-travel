@@ -3,6 +3,7 @@
   padding: 0;
   width: min(100%, 1024px + 160 * (100% - 1024px) / 256);
   min-height: calc(640px + 100 * (100vw - 1024px) / 256);
+  height: 1px;
   position: relative;
   display: flex;
   justify-content: center;
